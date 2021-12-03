@@ -1,0 +1,417 @@
+body {
+    margin: 0;
+    font-family: 'Museo', 'Sans Cyrillic';
+    font-family: 'Gilroy';
+    font-size: 16px;
+ }
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Museo', 'Sans Cyrillic';
+    src: url('../fonts/museosanscyrl-500.woff');
+}
+
+/* Container ==============
+=========================== */
+
+.container {
+    display: flex;
+    /* flex-wrap: nowrap; добавил 2 строки, тест */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px 92px 0px;
+}
+
+.hr {
+    border-color: #090D15;
+    border-width: 0px;
+}
+
+/* Header ==================
+============================ */
+.header {
+    width: 100%;
+    background-color: 
+    #131521;
+
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 192px 27px ;
+
+}
+
+/* Nav ********* */
+.nav__inner {
+    display: inline-block;
+    font-family: Museo;
+    font-size: 13px;
+
+    text-transform: uppercase;
+}
+
+.nav__link {
+
+    vertical-align: top;
+    margin: 0 36px;
+    color: #9398B2;
+    margin: 0 36px;
+    text-decoration: none;
+
+    transition: color 0.2s linear; /* для плавной смены кадров в nav__link */
+}
+
+.nav__link:hover {
+    color: #99a3d8;
+
+}
+/* Nav ends ************ */
+
+.btntopa {
+    background-color: #191D2D;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btntop {
+    margin-right: 10px;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 20px;
+
+}
+/* end of HEADER ==========
+=========================== */
+
+/* Intro ==================
+=========================== */
+.intro {
+    background: url("../img/background1.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+.dotabackgroundimg {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.dota__features {
+    width: 100%;
+    max-width: 488px;
+    margin: 210px 0px;
+    padding-bottom: 32px;
+    
+}
+
+.dotaskinforsale{
+    max-width: 488px;
+    color: #fff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+/* Button ************* */
+.knopka {
+    display: inline-block;
+
+    text-decoration: none;
+
+
+    color: white;
+    border-radius: 60px;
+    background: #6E00DC;
+    padding: 21px 32px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    overflow: hidden;
+    cursor: pointer;
+}
+/* Button end *********** */
+
+.dota__leftimg {
+    width: 100%;
+}
+
+.arrowtop {
+    padding-left: 25px;
+}
+/* end of Intro =====================
+===================================== */
+
+/* Bottompics =======================
+===================================== */
+
+.bottompics {
+    background-color:#090D15;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 790px;
+}
+
+.bottomopicsdota {
+    /* display: flex; */
+    display: block;
+    padding: 0px;
+    width: auto;
+    height: auto;
+}
+
+.dotapics {
+    position: relative;
+}
+
+.dotaimgfirst {
+    position:absolute;
+}
+
+.deathproph {
+    position: absolute;
+    top: 120px;
+    left: 382px;
+    z-index: 0;
+}
+
+.lesh {
+    position: absolute;
+    top: 260px;
+    left: 650px;
+    z-index: 1;
+}
+
+.dotaimgsecond {
+    position: relative;
+    top: -8px;
+    left: 805px;
+}
+/* End of Bottompics ==================
+======================================= */
+
+/*Start of  section__bttm =============
+======================================= */
+
+.section__bttm {
+    background-color: #090D15;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 460px;
+    padding-top: 120px;
+
+}
+
+.botpart {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px 192px 0px;
+}
+
+.bottom_area {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.thirdpart {    
+    color: #FFFFFF;
+    padding: 26px 80px;
+}
+
+.section__bttmbackgr {
+    padding: 0;
+    margin: 0;
+}
+
+.retanglebot {
+
+    width: 488px;
+    height: 70px;
+    padding: 26px 124px 26px 22px;
+}
+
+.retanglebot:hover {
+    background: linear-gradient(270deg, rgba(123, 6, 248, 0.1) 0%, rgba(45, 104, 255, 0) 100%);
+    border-radius: 10px;
+    opacity: 100%;
+    background: url(../img/Rectangle\ 1.png);
+}
+
+.retanglebotlong {
+    width: 488px;
+    height: 70px;
+    padding: 26px 80px 26px 22px;
+}
+
+.retanglebotlong:hover {
+    background: linear-gradient(270deg, rgba(123, 6, 248, 0.1) 0%, rgba(45, 104, 255, 0) 100%);
+    border-radius: 10px;
+    opacity: 100%;
+    background: url(../img/Rectangle\ 1.png);
+}
+
+.bottom_textarea {
+    padding-right: 192px;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: Museo Sans Cyrillic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+
+}
+
+.bottext {
+    font-family: Museo Sans Cyrillic;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 624px;
+}
+/* End of Setion__bttm =================
+======================================== */
+
+
+
+/* Last part - GET MONEY ===============
+======================================== */
+
+.getmoney {
+    background-color: #090D15;
+    background-size: cover;
+    background-repeat: repeat;
+    height: 390px;
+}
+
+.getmoneyblock {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px 192px 0px;
+}
+
+.getmoneyarea {
+    position: relative;
+    align-items: center;
+}
+
+.getmoneybutton {
+    position: absolute;
+    text-decoration: none;
+    z-index: 3;
+    left: 164px;
+    top: 173px;
+    color: white;
+    border-radius: 60px;
+    background: #6E00DC;
+    padding: 21px 32px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.getmoneypic {
+    position: absolute;
+    padding-left: 92px;
+}
+
+/* END of getmoney =====================
+========================================*/
+
+/* START of FOOTER =====================
+======================================== */
+.footer {
+    background: #080C13;
+    color: #9398B2;
+    padding: 70px 192px;
+    position: relative;
+    /* display: block; */
+}
+
+.content_container .footer {
+    margin: 0px auto;
+    max-width: 1216px;
+}
+
+.content_container {
+    display: inline-flex;
+    align-content: space-between;
+}
+
+.footer_rightpart {
+    display: block;
+    float: left;
+    padding-right: 182px;
+}
+
+.footer_logo {
+    padding-bottom: 25px;
+    display: block;
+}
+
+.license {
+    color: #1B2335;
+    max-width: 280px;
+    padding-bottom: 60px;
+}
+
+.footer_socialpages {
+    padding-bottom: 70px;
+}
+
+.link_list_firstcollumn {
+    flex: none;
+    flex-grow: 0;
+    order: 0;
+    padding-right: 197px;
+}
+
+.link_list_midcollumn {
+    flex: none;
+    flex-grow: 0;
+    order: 0;
+    padding-right: 148px;
+}
+
+.link_list_lastcollumn {
+
+}
+
+.collumn_list {
+    margin: 0;
+    padding-bottom: 24px;
+}
